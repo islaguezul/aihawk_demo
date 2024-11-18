@@ -4,47 +4,63 @@ onsite: true
 
 experience_level:
   internship: false
-  entry: true
-  associate: true
+  entry: false
+  associate: false
   mid_senior_level: true
-  director: false
-  executive: false
+  director: true
+  executive: true
 
 job_types:
   full_time: true
   contract: false
   part_time: false
-  temporary: true
+  temporary: false
   internship: false
   other: false
-  volunteer: true
+  volunteer: false
 
 date:
   all_time: false
-  month: false
-  week: false
+  month: true
+  week: true
   24_hours: true
 
 positions:
-  - Software engineer
+  - Technical Product Manager
+  - Product Manager
+  - Technical Project Manager
+  - Senior Product Manager
+  - Business Process Analyst
+  - Senior Project Manager
+  - Program Manager
+  - Senior Analyst
+  - Senior Business Analyst
+  - Senior Business Process Analyst
 
 locations:
-  - Germany
+  - Italy
+  - Spain
+  - Portugal
+  - Ireland
+  - France
 
-apply_once_at_company: true
+apply_once_at_company: false
 
 distance: 100
 
 company_blacklist:
-  - wayfair
-  - Crossover
 
 title_blacklist:
-  - word1
-  - word2
+  - Engineer
 
 location_blacklist:
-  - Brazil
+  - California
+  - Washington
+  - Seattle
+  - Chicago
+  - New York
+  - United States of America
+  - United States
 
 job_applicants_threshold:
   min_applicants: 0
@@ -52,4 +68,4 @@ job_applicants_threshold:
 
 llm_model_type: openai
 llm_model: 'gpt-4o-mini'
-# llm_api_url: 'https://api.pawan.krd/cosmosrp/v1'
+# llm_api_url: https://api.pawan.krd/cosmosrp/v1'
